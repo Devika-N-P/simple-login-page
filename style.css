@@ -1,0 +1,72 @@
+/* മൊത്തം പേജിന്റെ ബാക്ക്ഗ്രൗണ്ടും ഫോണ്ടും സെറ്റ് ചെയ്യുന്നു */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* നമ്മൾ ഉണ്ടാക്കിയ ലോഗിൻ ബോക്സിന്റെ ഡിസൈൻ */
+.login-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.login-container p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+/* ഓരോ ഇൻപുട്ട് ഫീൽഡിന്റെയും ഡിസൈൻ */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+/* ബട്ടണിന്റെ ഡിസൈൻ */
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* മാؤس ബട്ടണിന് മുകളിൽ വരുമ്പോൾ നിറം മാറാൻ (Hover effect) */
+.login-btn:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <!-- താഴെയുള്ള ലൈൻ വഴിയാണ് നമ്മൾ CSS ഫയലിനെ HTML-ലേക്ക് കണക്ട് ചെയ്യുന്നത് -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="login-container">
+        <h2>Welcome Back</h2>
+        <p>Please login to your account</p>
+
+        <form>
+            <!-- Username Input Field -->
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter your username" required>
+            </div>
+
+            <!-- Password Input Field -->
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password" required>
+            </div>
+
+            <!-- Login Button -->
+            <button type="submit" class="login-btn">Login</button>
+        </form>
+    </div>
+    <!-- Add this line right before the closing body tag -->
+    <script src="script.js"></script>
+</body>
+</html>
+
